@@ -1,0 +1,14 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.portWin": "COM10",
+  "files.associations": {
+    "main.h": "c",
+    "freertos.h": "c",
+    "mcpwm_prelude.h": "c",
+    "servo_utils.h": "c",
+    "stdint.h": "c",
+    "complex": "c"
+  },
+  "idf.flashType": "UART",
+  "idf.adapterTargetName": "esp32"
+}

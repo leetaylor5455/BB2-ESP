@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+F:/Documents/GitHub/BB2-ESP/controller/build/CMakeFiles/bootloader
+F:/Documents/GitHub/BB2-ESP/controller/build/CMakeFiles/bootloader.rule
+F:/Documents/GitHub/BB2-ESP/controller/build/CMakeFiles/bootloader-complete.rule
+F:/Documents/GitHub/BB2-ESP/controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+F:/Documents/GitHub/BB2-ESP/controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+F:/Documents/GitHub/BB2-ESP/controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+F:/Documents/GitHub/BB2-ESP/controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+F:/Documents/GitHub/BB2-ESP/controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+F:/Documents/GitHub/BB2-ESP/controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+F:/Documents/GitHub/BB2-ESP/controller/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
