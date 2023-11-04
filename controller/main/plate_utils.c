@@ -89,15 +89,17 @@ void correct_coords(int32_t *x, int32_t *y)
 {
     // ESP_LOGI(TAG2, "Raw: (%ld, %ld)", *x, *y);
 
+    *x += *x/10 + 12;
+    *y += *x/10 - 10;
     // isolate by quadrant
     // top right
-    if (*x > 0 && *y > 0) {
-        // *x += *y / 8; 
-        *y += *x / 10;
-    } else {
-        // *x += (*y) / 10;
-        *y += *x / 20;
-    }
+    // if (*x > 0 && *y > 0) {
+    //     // *x += *y / 8; 
+    //     *y += *x / 10;
+    // } else {
+    //     // *x += (*y) / 10;
+    //     *y += *x / 20;
+    // }
     // ESP_LOGI(TAG2, "Cor: (%ld, %ld)", *x, *y);
     
 }
@@ -150,7 +152,7 @@ void read_plate(int32_t (*plate_coords)[2], adc_oneshot_unit_handle_t adc2_handl
     ESP_ERROR_CHECK(adc_oneshot_read(adc2_handle, EXAMPLE_ADC2_CHAN0, &adc_raw));
     y = adc_to_mm_y(adc_raw);
 
-    // correct_coords(&x, &y);
+    correct_coords(&x, &y);
     (*plate_coords)[0] = x;
     (*plate_coords)[1] = y;
 }

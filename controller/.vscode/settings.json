@@ -7,7 +7,12 @@
     "mcpwm_prelude.h": "c",
     "servo_utils.h": "c",
     "stdint.h": "c",
-    "complex": "c"
+    "complex": "c",
+    "stdio.h": "c",
+    "string.h": "c",
+    "setpoint_utils.h": "c",
+    "esp_timer.h": "c",
+    "math.h": "c"
   },
   "idf.flashType": "UART",
   "idf.adapterTargetName": "esp32"
